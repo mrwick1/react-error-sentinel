@@ -1,0 +1,81 @@
+{
+  "name": "react-error-sentinel",
+  "version": "0.3.0",
+  "description": "Lightweight error tracking and crash reporting for React applications",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./react": {
+      "require": "./dist/react.js",
+      "import": "./dist/react.mjs",
+      "types": "./dist/react.d.ts"
+    },
+    "./dashboard": {
+      "require": "./dist/dashboard.js",
+      "import": "./dist/dashboard.mjs",
+      "types": "./dist/dashboard.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "redux": {
+      "optional": true
+    },
+    "zustand": {
+      "optional": true
+    },
+    "axios": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.0",
+    "tsup": "^8.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  },
+  "keywords": [
+    "error-tracking",
+    "sentry",
+    "react",
+    "redux",
+    "zustand",
+    "error-monitoring",
+    "crash-reporting",
+    "console-capture",
+    "debugging"
+  ],
+  "author": "mrwick",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-error-sentinel"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/react-error-sentinel/issues"
+  },
+  "homepage": "https://github.com/yourusername/react-error-sentinel#readme"
+}
