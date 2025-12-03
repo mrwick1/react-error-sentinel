@@ -1,6 +1,6 @@
 {
   "name": "react-error-sentinel",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Lightweight error tracking and crash reporting for React applications",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -72,10 +72,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/react-error-sentinel"
+    "url": "https://github.com/mrwick1/react-error-sentinel"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/react-error-sentinel/issues"
+    "url": "https://github.com/mrwick1/react-error-sentinel/issues"
   },
-  "homepage": "https://github.com/yourusername/react-error-sentinel#readme"
+  "homepage": "https://github.com/mrwick1/react-error-sentinel#readme"
 }
